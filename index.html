@@ -14,9 +14,13 @@
     }
     .header-image {
       width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
     }
     .container {
-      max-width: 700px;
+      width: 90%;
+      max-width: 400px;
       margin: auto;
       padding: 20px;
       background-color: #2a2a2a;
@@ -24,15 +28,18 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.7);
     }
     .title {
-      font-size: 28px;
+      font-size: 24px;
       color: #ffcc00;
+      text-align: center;
     }
     .rating {
       color: gold;
-      font-size: 18px;
+      font-size: 16px;
+      text-align: center;
     }
     .size {
       color: #aaa;
+      text-align: center;
       margin-top: 5px;
     }
     .category {
@@ -40,11 +47,15 @@
       padding: 5px 10px;
       display: inline-block;
       border-radius: 4px;
-      margin: 10px 0;
+      margin: 10px auto;
+      text-align: center;
+      display: block;
+      width: fit-content;
     }
     .description {
       margin: 20px 0;
       line-height: 1.6;
+      text-align: center;
     }
     .features {
       list-style: none;
@@ -60,7 +71,7 @@
       background-color: #ffcc00;
       color: #000;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 16px;
       text-align: center;
       border-radius: 8px;
       text-decoration: none;
